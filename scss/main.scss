@@ -2,24 +2,17 @@
 /* Bootstrap Variables */
 $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
-
 /* Import Bootstrap */
 @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 
 
+.container {
+  width: 1024px;
+}
 
-
-
-
-// body {
-//   background-image: url(images/gsdbingaman.jpg);
-//   background-position: center;
-//   background-size: cover;
-//   background-repeat: no-repeat;
-//   /*max-width: 1080px;
-//   max-height: 2256px;*/
-//   color: red;
-// }
+h1 {
+  margin: 0;
+}
 
 * {
   -webkit-box-sizing: border-box;
@@ -28,9 +21,280 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 }
 
 
-
 body {
-  background: url("http://unsplash.it/g/1920/1920") 0 0 fixed;
-  -webkit-background-size: cover;
+  background-image: url(../images/gsdbingaman.jpg);
+  background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
+  // width: 1024px;
+  /*max-width: 1080px;
+  max-height: 2256px;*/
+  color: red;
+
+  &::before {
+    content: "";
+    background-color: rgba(5, 5, 5, .5);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+  }
 }
+
+/*************************************************
+HEADER
+*************************************************/
+
+
+
+ul {
+  list-style: none;
+}
+
+
+.sub {
+  float: right;
+  display: inline-block;
+}
+
+#soc-head {
+  float: right;
+  display: inline-block;
+
+  li {
+    display: inline-block;
+  }
+}
+
+.fb{
+  display: inline-block;
+  background-color: #445897;
+  height: 40px;
+  width: 40px;
+
+  i {
+    display: inline-block;
+    position: relative;
+    top: 8px;
+    left: 12px;
+    color: #7583B3;
+  }
+}
+
+.rss {
+  display: inline-block;
+  background-color: #CD9031;
+  height: 40px;
+  width: 40px;
+
+  i {
+    display: inline-block;
+    position: relative;
+    top: 6px;
+    left: 4.5px;
+    color: #DAAC6E;
+  }
+}
+
+.twitter {
+  display: inline-block;
+  background-color: #698DC7;
+  height: 40px;
+  width: 40px;
+
+  i {
+    display: inline-block;
+    position: relative;
+    top: 7px;
+    left: 5px;
+    color: #90A8D4;
+  }
+}
+
+.youtube {
+  display: inline-block;
+  background-color: #B1382D;
+  height: 40px;
+  width: 40px;
+
+  i {
+    display: inline-block;
+    position: relative;
+    top: 7px;
+    left: 8px;
+    color: #C46A61;
+  }
+}
+
+
+
+/*************************************************
+CONTENT SCROLL ARTICLES
+*************************************************/
+
+
+
+.content-scroll {
+  a {
+    background: url(../skateboard-images/top-image.png) center center;
+    background-size: cover;
+    height: 337px;
+    border: 5px solid white;
+    display: inherit;
+    position: relative;
+    margin: 0 auto;
+    // width: 1024px;
+  }
+}
+
+
+
+/*************************************************
+ARTICLES
+*************************************************/
+
+.articles {
+  width: 1024px;
+  margin-top: 30px;
+}
+
+.art-background {
+  background-color: white;
+  height: 350px;
+  // width: 334px;
+  h1 {
+    display: inline-block;
+    font-size: 20px;
+    padding-top: 29px;
+    padding-left: 27px;
+    padding-right: 33px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: black;
+  }
+
+  span {
+    display: inline-block;
+    font-size: 10px;
+    margin-top: 19px;
+    margin-bottom: 19px;
+    padding-left: 27px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: black;
+  }
+
+  p {
+    display: inline-block;
+    font-size: 10px;
+    padding-left: 27px;
+    padding-right: 33px;
+    line-height: 20px;
+    font-weight: 500;
+    color: black;
+
+  }
+
+  a {
+    display: inline-block;
+    margin-left: 116px;
+    margin-right: 116px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #B12631;
+    // margin-top:;
+  }
+}
+
+.tony-hawk {
+
+  a {
+    margin-top: 11px;
+  }
+}
+
+.rodney {
+  background-color: white;
+  background-clip: content-box;
+
+  a {
+    margin-top: 11px;
+  }
+}
+
+.ray-b {
+  background-color: white;
+  background-clip: content-box;
+
+  a {
+    margin-top: 34px;
+  }
+}
+
+
+/*************************************************
+SKATEBOARDERS
+*************************************************/
+
+
+
+.skateboarders {
+  height: 476px;
+}
+
+.lance-m {
+
+}
+
+.mountain {
+  background-image: url(../skateboard-images/sk8er-4.png);
+  background-size: cover;
+  background-position: center;
+  height: 222px;
+  border: 5px solid white;
+}
+
+.mullen {
+  background-image: url(../skateboard-images/sk8er-3.png);
+  background-size: cover;
+  background-position: center;
+  height: 222px;
+  border: 5px solid white;
+}
+
+.cab {
+  background-image: url(../skateboard-images/sk8er-1.png);
+  background-size: cover;
+  background-position: center;
+  height: 222px;
+  border: 5px solid white;
+}
+
+.tommy {
+  background-image: url(../skateboard-images/sk8er-2.png);
+  background-size: cover;
+  background-position: center;
+  height: 464px;
+  border: 5px solid white;
+
+}
+
+
+
+
+/*************************************************
+DECKS
+*************************************************/
+
+
+
+
+
+
+
+
+/*************************************************
+FOOTER
+*************************************************/
