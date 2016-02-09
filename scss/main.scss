@@ -1,0 +1,36 @@
+
+/* Bootstrap Variables */
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+
+/* Import Bootstrap */
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+
+
+
+
+// body {
+//   background-image: url(images/gsdbingaman.jpg);
+//   background-position: center;
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   /*max-width: 1080px;
+//   max-height: 2256px;*/
+//   color: red;
+// }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  background: url("http://unsplash.it/g/1920/1920") 0 0 fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
