@@ -50,9 +50,15 @@ HEADER
   float: right;
 }
 
+.sub::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 #soc-head {
   /*display: inline-block;*/
-  float: right;
+  /*float: right;*/
 }
 
 .fb {
@@ -125,6 +131,10 @@ NAVIGATION
 
 .article-nav {
   display: inline-block;
+  margin: 0 auto;
+}
+
+#nav-links {
 }
 
 .sk8-news > a {
@@ -147,14 +157,47 @@ NAVIGATION
 
 
 /*************************************************
-MAIN
+Scroll Adds
 *************************************************/
 
 
 
 
-#content-scroll a {
-  content: url(images/Photographer-three-IS099LL1R2.jpg);
+.content-scroll a {
+  background-image: url(images/Photographer-three-IS099LL1R2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inherit;
+  position: relative;
+  margin: 0 auto;
   height: 337px;
   width: 1003px;
 }
+
+
+
+/*************************************************
+ARTICLES
+*************************************************/
+
+
+
+.tony-hawk {
+  background-color: white;
+  display: inherit;
+}
+
+.rodney {
+  background-color: white;
+  display: inherit;
+}
+
+.ray-b {
+  background-color: white;
+  display: inherit;
+}
+
+
+/*************************************************
+SKATERS
+*************************************************/
