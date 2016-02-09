@@ -164,14 +164,15 @@ Scroll Adds
 
 
 .content-scroll a {
-  background-image: url(images/Photographer-three-IS099LL1R2.jpg);
+  background: url(images/Photographer-three-IS099LL1R2.jpg);
   background-repeat: no-repeat;
+  -webkit-background-size: cover;
   background-size: cover;
   display: inherit;
   position: relative;
   margin: 0 auto;
   height: 337px;
-  width: 1003px;
+  /*width: 1024px;*/
 }
 
 
