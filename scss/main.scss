@@ -49,6 +49,10 @@ HEADER
 
 
 
+header {
+  margin-top: 8px;
+}
+
 ul {
   list-style: none;
 }
@@ -57,14 +61,23 @@ ul {
 .sub {
   float: right;
   display: inline-block;
+  margin-top: 10px;
+  text-transform: uppercase;
+  color: #FCFCFC;
+
+  // &::after {
+  //
+  //
+  // }
 }
 
-#soc-head {
+.soc-head {
   float: right;
   display: inline-block;
 
   li {
     display: inline-block;
+    margin-left: 8px;
   }
 }
 
@@ -125,6 +138,17 @@ ul {
     top: 7px;
     left: 8px;
     color: #C46A61;
+  }
+}
+
+nav {
+  color: white;
+  width: 1024px;
+
+  li {
+    background-color: #82111C;
+    // margin-left: 8px;
+    display: inline-block;
   }
 }
 
@@ -242,6 +266,7 @@ SKATEBOARDERS
 
 .skateboarders {
   height: 476px;
+  margin-top: 27px;
 }
 
 .lance-m {
@@ -270,6 +295,7 @@ SKATEBOARDERS
   background-position: center;
   height: 222px;
   border: 5px solid white;
+  margin-top: 20px;
 }
 
 .tommy {
@@ -290,11 +316,128 @@ DECKS
 
 
 
-
-
+.decks {
+  background-image: url(../skateboard-images/decks.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  // width: 1024px;
+  height: 295px;
+}
 
 
 
 /*************************************************
 FOOTER
 *************************************************/
+
+
+
+ul {
+  list-style: none;
+}
+
+footer {
+  background-color: #fcfcfc;
+  position: relative;
+  margin-top: 27px;
+  margin-bottom: 45px;
+  color: #31322C;
+
+  h4 {
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    margin-right: 10px;
+  }
+
+  p {
+    margin-top: 35px;
+    margin-left: 40px;
+  }
+
+  ul {
+    margin-top: 35px;
+  }
+}
+
+
+// .sub {
+//   float: right;
+//   display: inline-block;
+// }
+
+.soc-foot {
+  display: inline-block;
+
+  li {
+    display: inline-block;
+  }
+}
+
+.fb-foot {
+  display: inline-block;
+  background-color: #505050;
+  height: 30px;
+  width: 30px;
+
+  i {
+    display: inline-block;
+    position: relative;
+    top: 7px;
+    left: 9px;
+    color: #7A7A7A;
+  }
+}
+
+.rss-foot {
+  display: inline-block;
+  background-color: #AEAEAE;
+  height: 30px;
+  width: 30px;
+
+  i {
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    left: 5.5px;
+    color: #C7C7C7;
+  }
+}
+
+.twitter-foot {
+  display: inline-block;
+  background-color: #7B7B7B;
+  height: 30px;
+  width: 30px;
+
+  i {
+    display: inline-block;
+    position: relative;
+    top: 6px;
+    left: 5px;
+    color: #A0A0A0;
+  }
+}
+
+.youtube-foot {
+  display: inline-block;
+  background-color: #757575;
+  height: 30px;
+  width: 30px;
+
+  i {
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    left: 8px;
+    color: #989898;
+  }
+}
+
+
+textarea {
+  margin-top: 28px;
+}

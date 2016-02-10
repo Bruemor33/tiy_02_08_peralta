@@ -5842,18 +5842,25 @@ body {
 /*************************************************
 HEADER
 *************************************************/
+header {
+  margin-top: 8px; }
+
 ul {
   list-style: none; }
 
 .sub {
   float: right;
-  display: inline-block; }
+  display: inline-block;
+  margin-top: 10px;
+  text-transform: uppercase;
+  color: #FCFCFC; }
 
-#soc-head {
+.soc-head {
   float: right;
   display: inline-block; }
-  #soc-head li {
-    display: inline-block; }
+  .soc-head li {
+    display: inline-block;
+    margin-left: 8px; }
 
 .fb {
   display: inline-block;
@@ -5902,6 +5909,13 @@ ul {
     top: 7px;
     left: 8px;
     color: #C46A61; }
+
+nav {
+  color: white;
+  width: 1024px; }
+  nav li {
+    background-color: #82111C;
+    display: inline-block; }
 
 /*************************************************
 CONTENT SCROLL ARTICLES
@@ -5978,7 +5992,8 @@ ARTICLES
 SKATEBOARDERS
 *************************************************/
 .skateboarders {
-  height: 476px; }
+  height: 476px;
+  margin-top: 27px; }
 
 .mountain {
   background-image: url(../skateboard-images/sk8er-4.png);
@@ -5999,7 +6014,8 @@ SKATEBOARDERS
   background-size: cover;
   background-position: center;
   height: 222px;
-  border: 5px solid white; }
+  border: 5px solid white;
+  margin-top: 20px; }
 
 .tommy {
   background-image: url(../skateboard-images/sk8er-2.png);
@@ -6011,8 +6027,92 @@ SKATEBOARDERS
 /*************************************************
 DECKS
 *************************************************/
+.decks {
+  background-image: url(../skateboard-images/decks.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 295px; }
+
 /*************************************************
 FOOTER
 *************************************************/
+ul {
+  list-style: none; }
+
+footer {
+  background-color: #fcfcfc;
+  position: relative;
+  margin-top: 27px;
+  margin-bottom: 45px;
+  color: #31322C; }
+  footer h4 {
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    margin-right: 10px; }
+  footer p {
+    margin-top: 35px;
+    margin-left: 40px; }
+  footer ul {
+    margin-top: 35px; }
+
+.soc-foot {
+  display: inline-block; }
+  .soc-foot li {
+    display: inline-block; }
+
+.fb-foot {
+  display: inline-block;
+  background-color: #505050;
+  height: 30px;
+  width: 30px; }
+  .fb-foot i {
+    display: inline-block;
+    position: relative;
+    top: 7px;
+    left: 9px;
+    color: #7A7A7A; }
+
+.rss-foot {
+  display: inline-block;
+  background-color: #AEAEAE;
+  height: 30px;
+  width: 30px; }
+  .rss-foot i {
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    left: 5.5px;
+    color: #C7C7C7; }
+
+.twitter-foot {
+  display: inline-block;
+  background-color: #7B7B7B;
+  height: 30px;
+  width: 30px; }
+  .twitter-foot i {
+    display: inline-block;
+    position: relative;
+    top: 6px;
+    left: 5px;
+    color: #A0A0A0; }
+
+.youtube-foot {
+  display: inline-block;
+  background-color: #757575;
+  height: 30px;
+  width: 30px; }
+  .youtube-foot i {
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    left: 8px;
+    color: #989898; }
+
+textarea {
+  margin-top: 28px; }
 
 /*# sourceMappingURL=main.css.map */
