@@ -5910,12 +5910,15 @@ ul {
     left: 8px;
     color: #C46A61; }
 
-nav {
+.main-nav-link {
+  display: block;
+  background-color: #B3292E;
+  text-align: center;
   color: white;
-  width: 1024px; }
-  nav li {
-    background-color: #82111C;
-    display: inline-block; }
+  height: 44px;
+  padding: 13px;
+  margin-bottom: 18px;
+  box-shadow: 0 4px rgba(220, 220, 220, 0.5); }
 
 /*************************************************
 CONTENT SCROLL ARTICLES

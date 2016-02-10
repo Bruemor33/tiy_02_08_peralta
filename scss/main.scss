@@ -5,6 +5,11 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 /* Import Bootstrap */
 @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 
+$primary-nav-color: #B3292E;
+
+
+
+
 
 .container {
   width: 1024px;
@@ -141,16 +146,33 @@ ul {
   }
 }
 
-nav {
-  color: white;
-  width: 1024px;
+// $box-border-color: ;
 
-  li {
-    background-color: #82111C;
-    // margin-left: 8px;
-    display: inline-block;
-  }
+.main-nav-link {
+
+    display: block;
+    background-color: $primary-nav-color;
+    text-align: center;
+    color: white;
+    height: 44px;
+    padding: 13px;
+    margin-bottom: 18px;
+    box-shadow: 0 4px rgba(220, 220, 220, .5);
 }
+
+
+// nav {
+//   color: white;
+//   width: 1024px;
+//
+//   li {
+//     background-color: #82111C;
+//     // margin-left: 8px;
+//     display: inline-block;
+//   }
+// }
+
+
 
 
 
